@@ -1,0 +1,39 @@
+
+header {
+    background-color: var(--headerbg);
+    color:var(--textcolor);
+    border:1px solid var(--naturborder);
+    border-bottom: none;
+    
+}
+
+.meny {
+    background-color: var(--menybg);
+    color:var(--textcolor);
+    border:1px solid var(--naturborder);
+    border-right: none;
+
+}
+
+main {
+    background-color: var(--mainbg);
+    color:var(--textcolor);
+    border:1px solid var(--naturborder);
+    border-bottom:none;
+    border-right:none;
+    
+}
+
+.right {
+    background-color: var(--rightbg);
+    color:var(--textcolor);
+    border:1px solid var(--naturborder);
+    border-bottom:none;
+}
+
+footer {
+    background-color: var(--footerbg);
+    color:var(--textcolor);
+    border:1px solid var(--naturborder);  
+}
+

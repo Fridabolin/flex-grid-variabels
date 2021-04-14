@@ -1,11 +1,10 @@
-
-
 @import "pastell.css";
-@import "variabels.css";
-
+@import "animaion-pastell.css";
+@import "variabelspastell.css";
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,15 +30,18 @@ margin-top:10rem;
 
 header {
     height:5rem;
-    border:1px solid black;
-   text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .meny {
     flex: 1;
     display:flex;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 .third {
     flex-direction: column;
@@ -58,7 +60,9 @@ header {
 menu {
     flex:1;
     height:10rem;
-    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -66,22 +70,21 @@ menu {
 .rest main {
     flex:2;
     display:flex;
-    border: 1px solid black;
+    align-items: center;
     justify-content: center;
     
 }
 
 .rest .right{
     flex:1;
-    display: flex;
-    border: 1px solid black;
+    display:flex;
+    align-items: center;
     justify-content: center;
 }
 
 footer {
-    display: flex;
-    flex: 1;
     height: 5rem;
-    border: 1px solid black;
-    justify-content: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;   
 }

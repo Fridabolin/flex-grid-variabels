@@ -1,6 +1,37 @@
+@import "variabelspastell.css";
+@import "animation-pastell.css";
 
+header {
+    background-color:var(--pastellheaderbg);
+    color:var(--pastelltextheader);
+    border:3px solid var(--pastellborder);
+    border-bottom: none;
+}
 
+.meny {
+    background-color: var(--pastellmenybg);
+    color:var(--pastelltextmeny);
+    border:3px solid var(--pastellborder);
+    border-right: none;
+}
 
-.header {
-    background-color: var(--headerbg);
+main {
+    background-color: var(--pastellmainbg);
+    color:var(--pastelltextmain);
+    border:3px solid var(--pastellborder);
+    border-bottom:none;
+    border-right:none;   
+}
+
+.right {
+    background-color: var(--pastellrightbg);
+    color: var(--pastelltextright);
+    border:3px solid var(--pastellborder);
+    border-bottom:none;
+}
+
+footer {
+    background-color: var(--pastellfooterbg);
+    color: var(--pastelltextfooter);
+    border:3px solid var(--pastellborder);  
 }

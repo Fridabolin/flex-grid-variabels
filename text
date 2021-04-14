@@ -1,0 +1,15 @@
+
+
+ändra färgskala genom att klistra in:
+
+@import "pastell.css";
+@import "animaion-pastell.css";
+@import "variabelspastell.css";
+
+eller
+
+@import "naturfärg.css";
+@import "animation-natur.css";
+@import "variabelsnatur.css";
+
+i style.css

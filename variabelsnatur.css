@@ -1,0 +1,28 @@
+
+
+
+
+/*naturfärg*/
+:root{
+
+--headerbg:#a5a58d;
+--menybg:#b7b7a4;
+--mainbg:#ddbea9;
+--rightbg:#6b705c;
+--footerbg:#cb997e;
+
+--textcolor:#ffe8d6;
+
+--naturborder:#7f5539;
+}
+
+/*animation naturfärg*/
+:root{
+
+    --a-headerbg:#cb997e;
+    --a-menybg:#6b705c;
+    --a-mainbg:#b7b7a4;
+    --a-rightbg:#ddbea9;
+    --a-footerbg:#a5a58d;
+    }
+    

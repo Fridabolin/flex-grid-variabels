@@ -1,0 +1,49 @@
+
+@import "variablesnatur.css";
+
+@keyframes change-header {
+    
+   from{ background-color:var(--headerbg); }
+   to { background-color:var(--a-headerbg);}
+}
+
+@keyframes change-meny {
+    from{ background-color:var(--menybg);}
+    to{ background-color:var(--a-menybg);}
+}
+
+@keyframes change-main {
+    from{ background-color:var(--mainbg);}
+    to{ background-color:var(--a-mainbg);}
+}
+
+@keyframes change-right {
+    from{ background-color:var(--rightbg);}
+    to{ background-color:var(--a-rightbg);}
+}
+
+@keyframes change-footer{
+    from{ background-color:var(--footerbg);}
+    to{ background-color:var(--a-footerbg);}
+}
+
+
+header {
+    animation: change-header 1s alternate infinite;
+}
+
+menu {
+    animation: change-meny 2s alternate infinite;
+}
+
+main {
+    animation: change-main 3s alternate infinite;
+}
+
+footer {
+    animation: change-footer 2s alternate infinite;
+}
+
+.right {
+    animation: change-right 1s alternate infinite;
+}

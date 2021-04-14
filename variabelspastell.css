@@ -1,0 +1,27 @@
+/*pastell*/
+:root{
+    --pastellheaderbg:#ffadad;
+    --pastellmenybg:#ffd6a5;
+    --pastellmainbg:#fdffb6;
+    --pastellrightbg:#caffbf;
+    --pastellfooterbg:#9bf6ff;
+    
+    --pastelltextheader:#fffffc;
+    --pastelltextmain:#ffadad;
+    --pastelltextfooter:#fffffc;
+    --pastelltextmeny:#9bf6ff;
+    --pastelltextright:#ffd6a5;
+    
+    --pastellborder:#a0c4ff;
+    }
+    
+    /*animation pastell*/
+
+    :root {
+    --a-pastellheaderbg:#9bf6ff;
+    --a-pastellmenybg:#caffbf;
+    --a-pastellmainbg:#ffd6a5;
+    --a-pastellrightbg:#fdffb6;
+    --a-pastellfooterbg:#ffadad;
+    
+    }
