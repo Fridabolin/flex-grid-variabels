@@ -1,0 +1,32 @@
+
+@import "naturfärg.css";
+@import "animation-natur.css";
+@import "variabelsnatur.css";
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.right { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  margin:10rem;
+  width: 30rem;
+}
+ 
+.grid-container > Div , header ,footer ,menu ,main , .item4 {
+  text-align: center;
+  padding: 20px ;
+
+}
+
